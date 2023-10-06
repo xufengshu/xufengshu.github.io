@@ -1,0 +1,25 @@
+1. Read the research article
+Spatial Transcriptional Mapping Reveals Site-Specific Pathways Underlying Human Atherosclerotic Plaque Rupture (PMID: 37286250)
+
+2. Answer the following questions
+a. What is the medically relevant insight from the article?
+The current study is the first to detail the exact location of atherosclerotic plaque ruptures along the longitudinal flow direction and to geographically map rupture site-related genes and pathways. 
+And they has identified out MMP-9 could be future therapeutic targets.
+
+b. Which genomics technology/ technologies were used?
+Firstly, bulk RNA-seq to identify DEGs in three regions of human plaque.
+Then, used pathway analysis on these DEGs and found the enriched pathways were quite matched to the results from Histology and SEM study.
+Next, saptial RNA-seq was used to make sure the candidates DEGs are really expressed near or around the plaque rupture sites.
+Finally, the MMP-9 was filted out as future therapeutic targets by several analysis, such as overall survival analysis, higher expression in symptomatic patients, flanked by SNPs, involved pathways are related to diseases developments by Mendelian Randomization analysis.
+
+3. Further related research questions
+a. List and explain at least three questions/ hypotheses you can think of that
+extend the analysis presented in the paper.
+b. Devise a computational analysis strategy for (some of) the listed
+questions under 3a.
+
+Only top10 DEGs by fold change has been discussed currently, why not use the whole DEGs as input with cutoffs of higher expression in symptomatic patients and bad survival rate. Maybe we could find more candidates, then, checking them by saptial RNA-seq in the same way.
+
+Now we know the MMP-9 gene can be biomarker, could we check for TF bindings on MMP-9 gene locus? Maybe the binding TFs also could be the same or similar therapeutic targets?
+
+This study just used human carotid plaques, are these results generalizable? should we use another plaque, such as plaque from heart to do this study again to make sure these results were in general. 
