@@ -13,10 +13,8 @@ Next, saptial RNA-seq was used to make sure the candidates DEGs are really expre
 Finally, the MMP-9 was filted out as future therapeutic targets by several analysis, such as overall survival analysis, higher expression in symptomatic patients, flanked by SNPs, involved pathways are related to diseases developments by Mendelian Randomization analysis.
 
 3. Further related research questions
-a. List and explain at least three questions/ hypotheses you can think of that
-extend the analysis presented in the paper.
-b. Devise a computational analysis strategy for (some of) the listed
-questions under 3a.
+a. List and explain at least three questions/ hypotheses you can think of that extend the analysis presented in the paper.
+b. Devise a computational analysis strategy for (some of) the listed questions under 3a.
 
 Only top10 DEGs by fold change has been discussed currently, why not use the whole DEGs as input with cutoffs of higher expression in symptomatic patients and bad survival rate. Maybe we could find more candidates, then, checking them by saptial RNA-seq in the same way.
 
